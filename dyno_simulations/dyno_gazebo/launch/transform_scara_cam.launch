@@ -1,0 +1,6 @@
+<launch>
+
+ <node pkg="tf" type="static_transform_publisher" name="world" args="0 0 0 0 0 0  /robot_frame /map  10"/>
+ <node pkg="tf" type="static_transform_publisher" name="fixture" args="0.8 0.8 0 3.14 0 0 /robot_frame /camera_frame 10"/> 
+
+</launch>
