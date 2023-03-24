@@ -1,2 +1,2 @@
-# kmj_workshop
+# workshop_bot
 Repo for workshop
